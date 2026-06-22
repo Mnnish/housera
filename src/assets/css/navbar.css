@@ -1,0 +1,121 @@
+/* ── NAVBAR */
+#mainNav {
+  background: var(--navy);
+  transition:
+    background 0.3s,
+    box-shadow 0.3s;
+  z-index: 1050;
+}
+#mainNav.scrolled {
+  background: rgba(10, 26, 62, 0.95);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+}
+.nav-logo-icon {
+  width: 40px;
+  height: 40px;
+  background: var(--gold);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-logo-icon i {
+  color: var(--navy);
+  font-size: 1.2rem;
+}
+.brand-name {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1;
+}
+.brand-tag {
+  font-size: 9px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+.navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.85) !important;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.4rem 0.2rem !important;
+  position: relative;
+  transition: color 0.2s;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active-link {
+  color: var(--gold) !important;
+}
+.navbar-nav .nav-link.active-link::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--gold);
+  border-radius: 2px;
+}
+/* Update your CSS to target the .active class added by NavLink */
+
+.navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.85) !important;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.4rem 0.2rem !important;
+  position: relative;
+  transition: color 0.2s;
+}
+
+/* Highlight color on hover and active state */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: var(--gold) !important;
+}
+
+/* The Underline Effect */
+.navbar-nav .nav-link.active::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--gold);
+  border-radius: 2px;
+}
+
+.nav-call-btn {
+  border: 1px solid rgba(251, 191, 36, 0.4);
+  color: #fff !important;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 0.5rem 1.2rem;
+  transition: all 0.2s;
+}
+.nav-call-btn {
+  border: 1px solid rgba(251, 191, 36, 0.4);
+  color: #fff !important;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 0.5rem 1.2rem;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+.nav-call-btn:hover {
+  border-color: var(--gold);
+  background: rgba(251, 191, 36, 0.1);
+}
+.navbar-toggler {
+  border: none;
+  color: #fff;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
