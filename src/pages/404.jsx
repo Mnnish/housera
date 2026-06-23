@@ -1,6 +1,6 @@
-import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const PageNotFound = () => {
   return (
@@ -22,13 +22,34 @@ const PageNotFound = () => {
             <Col lg={6} data-aos="fade-left" data-aos-delay="300">
               <div className="error-content mt-5">
                 {/* <span className="error-badge" data-aos="zoom-in" data-aos-delay="400">Error</span> */}
-                <h1 className="error-code" data-aos="fade-up" data-aos-delay="500">404</h1>
-                <h2 className="error-title" data-aos="fade-up" data-aos-delay="600">Page Not Found</h2>
-                <p className="error-description" data-aos="fade-up" data-aos-delay="700">
-                  The house or page you are looking for might have been moved, had its name changed, or is temporarily unavailable.
+                <h1
+                  className="error-code"
+                  data-aos="fade-up"
+                  data-aos-delay="500"
+                >
+                  404
+                </h1>
+                <h2
+                  className="error-title"
+                  data-aos="fade-up"
+                  data-aos-delay="600"
+                >
+                  Page Not Found
+                </h2>
+                <p
+                  className="error-description"
+                  data-aos="fade-up"
+                  data-aos-delay="700"
+                >
+                  The house or page you are looking for might have been moved,
+                  had its name changed, or is temporarily unavailable.
                 </p>
 
-                <div className="error-actions" data-aos="fade-up" data-aos-delay="800">
+                <div
+                  className="error-actions"
+                  data-aos="fade-up"
+                  data-aos-delay="800"
+                >
                   <Link to="/" className="btn-home text-decoration-none">
                     <i className="bi bi-house-door"></i> Back to Home
                   </Link>
@@ -37,12 +58,31 @@ const PageNotFound = () => {
                   </Link>
                 </div>
 
-                <div className="error-suggestions" data-aos="fade-up" data-aos-delay="900">
+                <div
+                  className="error-suggestions"
+                  data-aos="fade-up"
+                  data-aos-delay="900"
+                >
                   <h3>You might want to:</h3>
                   <ul className="list-unstyled">
-                    <li><Link to="/features" className="text-decoration-none"><i className="bi bi-arrow-right-circle"></i> View all properties</Link></li>
-                    <li><Link to="/contact" className="text-decoration-none"><i className="bi bi-arrow-right-circle"></i> Contact support</Link></li>
-                    <li><Link to="/" className="text-decoration-none"><i className="bi bi-arrow-right-circle"></i> Return to previous page</Link></li>
+                    <li>
+                      <Link to="/features" className="text-decoration-none">
+                        <i className="bi bi-arrow-right-circle"></i> View all
+                        properties
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/contact" className="text-decoration-none">
+                        <i className="bi bi-arrow-right-circle"></i> Contact
+                        support
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/" className="text-decoration-none">
+                        <i className="bi bi-arrow-right-circle"></i> Return to
+                        previous page
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               </div>
