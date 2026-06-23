@@ -43,7 +43,7 @@ const AboutHero = () => {
               <Col lg={7} data-aos="fade-left" data-aos-delay="300">
                 <div className="content">
                   <div className="section-header">
-                    <h2 className="fw-bold">
+                    <h2>
                       Building Dreams, Creating Homes Since 2008
                     </h2>
                   </div>

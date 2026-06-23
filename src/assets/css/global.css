@@ -962,7 +962,7 @@ a {
 .contact .contact-info-panel .panel-content {
   position: relative;
   z-index: 2;
-  padding: 80px 60px;
+  padding: 40px 60px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -972,7 +972,7 @@ a {
 }
 
 .contact .contact-info-panel .info-header h2 {
-  font-size: 42px;
+  font-size: 16px;
   font-weight: 600;
   color: var(--slate100);
   margin-bottom: 20px;
@@ -980,7 +980,7 @@ a {
 }
 
 .contact .contact-info-panel .info-header p {
-  font-size: 18px;
+  font-size: 13px;
   color: color-mix(in srgb, var(--slate100), transparent 15%);
   line-height: 1.6;
   margin-bottom: 0;
@@ -997,8 +997,8 @@ a {
 .contact .contact-info-panel .info-card {
   display: flex;
   align-items: flex-start;
-  gap: 20px;
-  padding: 25px;
+  gap: 14px;
+  padding: 20px;
   background: color-mix(in srgb, var(--slate100), transparent 90%);
   border-radius: 12px;
   backdrop-filter: blur(10px);
@@ -1012,8 +1012,8 @@ a {
 }
 
 .contact .contact-info-panel .info-card .card-icon {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background: var(--slate50);
   color: var(--navy);
   border-radius: 10px;
@@ -1035,7 +1035,7 @@ a {
 }
 
 .contact .contact-info-panel .info-card .card-content p {
-  font-size: 14px;
+  font-size: 13px;
   color: color-mix(in srgb, var(--slate100), transparent 20%);
   margin-bottom: 0;
   line-height: 1.5;
@@ -1059,8 +1059,8 @@ a {
 }
 
 .contact .contact-info-panel .social-section .social-icons .social-icon {
-  width: 44px;
-  height: 44px;
+  width: 40px;
+  height: 40px;
   background: color-mix(in srgb, var(--slate100), transparent 85%);
   color: var(--slate100);
   border-radius: 8px;
@@ -1102,8 +1102,8 @@ a {
 }
 
 .contact .contact-form-wrapper .form-header h3 {
-  font-size: 32px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 600;
   color: var(--navy2);
   margin-bottom: 15px;
 }
@@ -1127,8 +1127,8 @@ a {
 
 .contact .contact-form-wrapper .modern-form .form-group .form-control {
   width: 100%;
-  padding: 18px 25px;
-  font-size: 16px;
+  padding:14px 20px;
+  font-size: 13px;
   border: 2px solid color-mix(in srgb, var(--slate), transparent 85%);
   border-radius: 8px;
   background: var(--slate100);
@@ -1153,7 +1153,7 @@ a {
   background: var(--navy);
   color: var(--slate200);
   border: none;
-  padding: 18px 35px;
+  padding: 14px 28px;
   border-radius: 8px;
   font-size: 16px;
   font-weight: 600;
@@ -1164,6 +1164,11 @@ a {
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
+}
+.contact .contact-form-wrapper .modern-form .submit-btn span{
+  font-size : 13px;
+  font-weight: 600;
+
 }
 
 .contact .contact-form-wrapper .modern-form .submit-btn:hover {
@@ -2210,7 +2215,7 @@ a {
 
 
 .home-about .content .section-header h2 {
-  font-size: 22px;
+  font-size: 16px;
   line-height: 1.3;
   font-weight: 700;
   margin: 0;
@@ -2218,12 +2223,12 @@ a {
 
 @media (max-width: 768px) {
   .home-about .content .section-header h2 {
-    font-size: 1.8rem;
+    font-size: 16px;
   }
 }
 
 .home-about .content p {
-  font-size: 16px;
+  font-size: 13px;
   line-height: 1.7;
   margin-bottom: 2rem;
   color: color-mix(in srgb, var(--slate), transparent 25%);
@@ -2299,12 +2304,18 @@ a {
   font-weight: 600;
   transition: all 0.3s ease;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  
 }
 
 .home-about .content .action-section .btn-cta:hover {
   transform: translateY(-3px);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
   color: var(--slate200);
+}
+
+.home-about .content .action-section .btn-cta span {
+  font-size: 13px;
+  font-weight: 600;
 }
 
 .home-about .content .action-section .btn-cta:hover i {
@@ -2334,7 +2345,7 @@ a {
 
 .home-about .content .action-section .contact-info .contact-icon i {
   color: var(--navy);
-  font-size: 1.1rem;
+  font-size:16px;
 }
 
 .home-about .content .action-section .contact-info .contact-details {
@@ -2343,13 +2354,13 @@ a {
 }
 
 .home-about .content .action-section .contact-info .contact-details span {
-  font-size: 0.85rem;
+  font-size: 13px;
   color: color-mix(in srgb, var(--slate), transparent 40%);
-  margin-bottom: 0.1rem;
+  margin-bottom: 1.6px;
 }
 
 .home-about .content .action-section .contact-info .contact-details strong {
-  font-size: 1rem;
+  font-size: 13px;
   color: var(--navy);
   font-weight: 700;
 }
@@ -2426,7 +2437,7 @@ a {
 }
 
 .mission-vision .purpose-content h3 {
-  font-size: 28px;
+  font-size: 16px;
   font-weight: 800;
   margin-bottom: 20px;
   color: var(--navy);
@@ -2447,7 +2458,7 @@ a {
 .mission-vision .purpose-list .list-item {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .mission-vision .item-icon {
@@ -2476,7 +2487,7 @@ a {
   margin-bottom: 5px;
 }
 .mission-vision .item-text p {
-  font-size: 14px;
+  font-size: 13px;
   color: color-mix(in srgb, var(--navy), transparent 20%);
   margin: 0;
 }
@@ -2488,7 +2499,7 @@ a {
 }
 
 .mission-vision .btn-primary-custom {
-  background: linear-gradient(135deg, var(--accent-color), #8b5cf6);
+  background: linear-gradient(135deg, var(--navy), #8b5cf6);
   color: white;
   padding: 15px 35px;
   border-radius: 50px;
@@ -2498,8 +2509,8 @@ a {
 
 .mission-vision .btn-outline-custom {
   background: transparent;
-  color: var(--accent-color);
-  border: 2px solid var(--accent-color);
+  color: var(--navy);
+  border: 2px solid var(--navy);
   padding: 13px 35px;
   border-radius: 50px;
   font-weight: 600;
@@ -2537,5 +2548,431 @@ a {
     font-size: 14px;
     width: 100%;
     justify-content: center;
+  }
+}
+
+/*--------------------------------------------------------------
+# Property Details Section
+--------------------------------------------------------------*/
+.property-details {
+  margin-top: 80px;
+}
+.property-details .property-gallery .main-image-container {
+  position: relative;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.property-details .property-gallery .main-image-container .main-property-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  cursor: zoom-in;
+}
+
+.property-details .property-gallery .main-image-container .image-zoom-container {
+  position: absolute;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: var(--slate200);
+  border: 1px solid color-mix(in srgb, var(--slate), transparent 85%);
+  z-index: 10;
+}
+
+@media (max-width: 768px) {
+  .property-details .property-gallery .main-image-container .image-zoom-container {
+    display: none;
+  }
+}
+
+.property-details .property-gallery .main-image-container .image-nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: color-mix(in srgb, var(--slate200), transparent 10%);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--slate);
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 5;
+  backdrop-filter: blur(10px);
+}
+
+
+.property-details .property-gallery .main-image-container .image-nav-btn:hover {
+  background-color: var(--navy);
+  color: var(--slate200);
+}
+
+.property-details .property-gallery .main-image-container .image-nav-btn.prev-image {
+  left: 15px;
+}
+
+.property-details .property-gallery .main-image-container .image-nav-btn.next-image {
+  right: 15px;
+}
+
+.property-details .property-gallery .thumbnail-gallery {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.property-details .property-gallery .thumbnail-gallery .thumbnail-item {
+  flex: 1;
+  min-width: 100px;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.property-details .property-gallery .thumbnail-gallery .thumbnail-item.active {
+  border-color: var(--navy);
+}
+
+.property-details .property-gallery .thumbnail-gallery .thumbnail-item:hover {
+  border-color: color-mix(in srgb, var(--navy), transparent 50%);
+}
+
+.property-details .property-gallery .thumbnail-gallery .thumbnail-item img {
+  width: 100%;
+  height: 80px;
+  object-fit: cover;
+}
+
+.property-details .property-description {
+  margin-top: 20px;
+  padding: 30px 0;
+  border-top: 1px solid color-mix(in srgb, var(--slate), transparent 85%);
+}
+
+.property-details .property-description h3 {
+  margin-bottom: 18px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.property-details .property-description p {
+  font-size: 13px;
+  margin-bottom: 15px;
+  line-height: 1.7;
+  color: color-mix(in srgb, var(--slate), transparent 10%);
+}
+
+.property-details .property-amenities {
+  padding: 30px 0;
+  border-top: 1px solid color-mix(in srgb, var(--slate), transparent 85%);
+}
+
+.property-details .property-amenities h3 {
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.property-details .property-amenities h4 {
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--navy);
+}
+
+.property-details .property-amenities .features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.property-details .property-amenities .features-list li {
+  font-size: 13px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  color: color-mix(in srgb, var(--slate), transparent 10%);
+}
+
+.property-details .property-amenities .features-list li i {
+  color: var(--navy);
+  margin-right: 12px;
+  font-size: 13px;
+}
+
+.property-details .property-map {
+  padding: 30px 0;
+  border-top: 1px solid color-mix(in srgb, var(--slate), transparent 85%);
+}
+
+.property-details .property-map h3 {
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.property-details .property-map .map-container {
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.property-details .property-map .map-container iframe {
+  border-radius: 12px;
+}
+
+.property-details .property-map .location-details h4 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.property-details .property-map .location-details p {
+  color: color-mix(in srgb, var(--slate), transparent 10%);
+  line-height: 1.6;
+}
+
+.property-details .property-overview {
+  background: var(--slate200);
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 5px 25px color-mix(in srgb, var(--slate), transparent 90%);
+  top: 100px;
+}
+
+.property-details .property-overview .price-tag {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 10px;
+}
+
+.property-details .property-overview .property-status {
+  display: inline-block;
+  background: color-mix(in srgb, var(--navy), transparent 85%);
+  color: var(--navy);
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+}
+
+.property-details .property-overview .property-address {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid color-mix(in srgb, var(--slate), transparent 85%);
+}
+
+.property-details .property-overview .property-address h4 {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.property-details .property-overview .property-address p {
+  color: color-mix(in srgb, var(--slate), transparent 30%);
+  margin: 0;
+  font-size: 13px;
+}
+
+.property-details .property-overview .property-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.property-details .property-overview .property-stats .stat-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.property-details .property-overview .property-stats .stat-item i {
+  font-size: 20px;
+  color: var(--navy);
+  width: 20px;
+}
+
+.property-details .property-overview .property-stats .stat-item .value {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--navy);
+  display: block;
+}
+
+.property-details .property-overview .property-stats .stat-item .label {
+  font-size: 13px;
+  color: color-mix(in srgb, var(--slate), transparent 40%);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.property-details .property-overview .agent-info {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 12px;
+  padding: 20px;
+  background: color-mix(in srgb, var(--slate200), var(--slate) 3%);
+  border-radius: 12px;
+  border-top: 3px solid var(--navy);
+}
+
+.property-details .property-overview .agent-info .agent-avatar img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.property-details .property-overview .agent-info .agent-details h4 {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.property-details .property-overview .agent-info .agent-details p {
+  margin-bottom: 3px;
+  font-size: 13px;
+  color: color-mix(in srgb, var(--slate), transparent 30%);
+}
+
+.property-details .property-overview .agent-info .agent-details p i {
+  margin-right: 5px;
+  color: var(--navy);
+}
+
+.property-details .property-overview .agent-info .agent-details .agent-title {
+  font-style: italic;
+}
+
+.property-details .property-overview .contact-form {
+  margin-bottom: 30px;
+}
+
+.property-details .property-overview .contact-form h4 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.property-details .property-overview .contact-form .form-control {
+  margin-bottom: 15px;
+  border: 1px solid color-mix(in srgb, var(--slate), transparent 80%);
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 13px;
+  color: var(--slate);
+  background-color: var(--slate200);
+}
+
+.property-details .property-overview .contact-form .form-control:focus {
+  border-color: var(--navy);
+  box-shadow: 0 0 0 0.2rem color-mix(in srgb, var(--navy), transparent 80%);
+}
+
+.property-details .property-overview .contact-form .form-control::placeholder {
+  color: color-mix(in srgb, var(--slate), transparent 70%);
+}
+
+.property-details .property-overview .contact-form .btn-primary {
+  background: var(--navy);
+  border: none;
+  padding: 12px 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  width: 100%;
+  transition: all 0.3s ease;
+  font-size: 13px;
+}
+
+.property-details .property-overview .contact-form .btn-primary:hover {
+  background: color-mix(in srgb, var(--navy), black 10%);
+  transform: translateY(-2px);
+}
+
+.property-details .property-overview .social-share h5 {
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.property-details .property-overview .social-share .share-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.property-details .property-overview .social-share .share-buttons .share-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--slate200);
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.property-details .property-overview .social-share .share-buttons .share-btn.facebook {
+  background: #3b5998;
+}
+
+.property-details .property-overview .social-share .share-buttons .share-btn.twitter {
+  background: #1da1f2;
+}
+
+.property-details .property-overview .social-share .share-buttons .share-btn.whatsapp {
+  background: #25d366;
+}
+
+.property-details .property-overview .social-share .share-buttons .share-btn.email {
+  background: #ea4335;
+}
+
+.property-details .property-overview .social-share .share-buttons .share-btn.print {
+  background: var(--navy);
+}
+
+.property-details .property-overview .social-share .share-buttons .share-btn:hover {
+  transform: translateY(-2px);
+  color: var(--slate200);
+}
+
+@media (max-width: 768px) {
+  .property-details .property-overview {
+    position: static !important;
+    top: auto !important;
+    margin-top: 30px;
+  }
+
+  .property-details .property-overview .property-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .property-details .property-gallery .main-image-container .main-property-image {
+    height: 300px;
+  }
+
+  .property-details .property-gallery .thumbnail-gallery .thumbnail-item {
+    min-width: 80px;
+  }
+
+  .property-details .property-gallery .thumbnail-gallery .thumbnail-item img {
+    height: 60px;
   }
 }
