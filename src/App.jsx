@@ -44,13 +44,13 @@ function App() {
         <Navbar />
 
         <Routes>
-          <Route path="/housera" element={<Inde />} />
+          <Route path="/housera" element={<Index />} />
           <Route path="*" element={<PageNotFound />} />
           <Route path="/" element={<Index />} />
           <Route path="/contact-us" element={<Contactus />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-and-conditions" element={<Terms />} />
-          <Route path="/properties" element={<Properties />} />
+          <Route path="/proaddperties" element={<Properties />} />
           <Route path="/property-details/" element={<PropertyDetails />} />
           <Route path="/faqs" element={<FAQSection />} />
           <Route path="/about-us" element={<Aboutus />} />
