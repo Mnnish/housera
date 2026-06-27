@@ -44,7 +44,6 @@ function App() {
         <Navbar />
 
         <Routes>
-          <Route path="/housera/" element={<Index />} />
           <Route path="*" element={<PageNotFound />} />
           <Route path="/" element={<Index />} />
           <Route path="/contact-us" element={<Contactus />} />
